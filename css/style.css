@@ -14,3 +14,35 @@
 h1,h2,h3,h4,h5,h6{
     font-family:var(--titulos);
 }
+
+/* selector unviversal en css es(*) */
+*{
+    /* calcular mejor los paddings o espaciados */
+    box-sizing: border-box;
+ }
+
+ /* representacion de una clase en css es (.) */
+ .home-wrapper { 
+    background-color: url('../images/background.jpg');
+    background-size: cover;
+ }
+
+ header{ 
+    width: 100%;
+    background-color: var(--encabezado);
+    position: fixed;
+    padding-top: 8px;
+ }
+
+ header nav{
+    float: right;
+    margin-left: 5px;
+    padding: 10px 2px;
+  }
+
+  header img{ 
+    width: 200px;
+  }
+
+
+ 
